@@ -11,6 +11,8 @@
 		74AD252027411A75000E37D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD251F27411A75000E37D8 /* ContentView.swift */; };
 		74AD252227411A7B000E37D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AD252127411A7B000E37D8 /* Assets.xcassets */; };
 		74AD252527411A7B000E37D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AD252427411A7B000E37D8 /* Preview Assets.xcassets */; };
+		74AD252C27411BBE000E37D8 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD252B27411BBD000E37D8 /* SliderView.swift */; };
+		74AD252E27413035000E37D8 /* GameSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD252D27413035000E37D8 /* GameSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		74AD251F27411A75000E37D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74AD252127411A7B000E37D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74AD252427411A7B000E37D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74AD252B27411BBD000E37D8 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		74AD252D27413035000E37D8 /* GameSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				74AD251D27411A75000E37D8 /* CheckScoringGameApp.swift */,
+				74AD252B27411BBD000E37D8 /* SliderView.swift */,
+				74AD252D27413035000E37D8 /* GameSlider.swift */,
 				74AD251F27411A75000E37D8 /* ContentView.swift */,
 				74AD252127411A7B000E37D8 /* Assets.xcassets */,
 				74AD252327411A7B000E37D8 /* Preview Content */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AD252E27413035000E37D8 /* GameSlider.swift in Sources */,
+				74AD252C27411BBE000E37D8 /* SliderView.swift in Sources */,
 				74AD252027411A75000E37D8 /* ContentView.swift in Sources */,
 				74AD251E27411A75000E37D8 /* CheckScoringGameApp.swift in Sources */,
 			);
